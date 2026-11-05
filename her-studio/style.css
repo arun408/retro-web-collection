@@ -1,0 +1,97 @@
+/* Reset & Basic Setup */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Fixed Center Wrapper (2011 Standard ~960px width) */
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/* Header Styles */
+#header {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#logo h1 {
+    margin: 0;
+    color: #b52b65;
+}
+
+#top-nav {
+    float: right;
+    margin-top: -30px;
+}
+
+#top-nav ul, #nav ul, #sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#top-nav li, #nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+#top-nav a, #nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+}
+
+/* Navigation Bar */
+#nav {
+    margin-top: 20px;
+    background: #333;
+    padding: 10px;
+}
+
+#nav li {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+#nav a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Content Layout (Using Floats instead of Flexbox/Grid) */
+#sidebar {
+    width: 200px;
+    float: left;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+}
+
+#main-content {
+    width: 700px;
+    float: right;
+}
+
+/* Clearfix to prevent float breaking */
+.clear {
+    clear: both;
+}
+
+/* Footer */
+#footer {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #777;
+}
